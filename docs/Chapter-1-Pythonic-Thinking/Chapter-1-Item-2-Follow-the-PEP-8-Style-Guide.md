@@ -8,7 +8,7 @@ Python 增强提案第 8 号（PEP 8）是关于如何格式化 Python 代码的
 
 PEP 8 provides a wealth of details about how to write clear Python code. It continues to be updated as the Python language evolves. It’s worth reading the whole guide online (https://www.python.org/dev/peps/pep-0008/). Here are a few rules you should be sure to follow.
 
-PEP 8 提供了大量有关如何编写清晰 Python 代码的细节。随着 Python 语言的发展，它也在不断更新。值得在线阅读整个指南（https://www.python.org/dev/peps/pep-0008/）。以下是几个你应该遵守的基本规则。
+PEP 8 提供了大量有关如何编写清晰 Python 代码的细节。随着 Python 语言的发展，它也在不断更新。值得在线阅读整个[指南](https://www.python.org/dev/peps/pep-0008/)。以下是几个你应该遵守的基本规则。
 
 **Whitespace**
 
@@ -105,7 +105,7 @@ PEP 8 对如何导入模块并在代码中使用它们提出了一些准则：
 
 If that all seems like a lot to remember, I have good news: The Python community is coalescing around a common tool for automatic PEP 8 formatting: it's called black (https://github.com/psf/black) and it's an official Python Software Foundation project. black provides very few configuration options, which makes it easy for developers working on the same code base to agree on the style of code. Installing and using black is straightforward:
 
-如果以上所有看起来很难记住，我有个好消息：Python 社区正在围绕一个通用的 PEP 8 自动格式化工具达成共识：称为 black（https://github.com/psf/black），它是 Python 软件基金会的官方项目。black 提供了非常少的配置选项，这使得在同一个代码库上工作的开发人员更容易就代码风格达成一致。安装和使用 black 是非常直接的：
+如果以上所有看起来很难记住，我有个好消息：Python 社区正在围绕一个通用的 PEP 8 自动格式化工具达成共识：称为 [black](https://github.com/psf/black) ，它是 Python 软件基金会的官方项目。black 提供了非常少的配置选项，这使得在同一个代码库上工作的开发人员更容易就代码风格达成一致。安装和使用 black 是非常直接的：
 
 ```
 $ pip install black

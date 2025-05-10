@@ -29,6 +29,7 @@ SUPPORTED_FORMATS: List[str] = ["json", "xml", "yaml"]
 # 类（CapitalizedWord）
 # ----------------------------
 
+
 class DataProcessor:
     """
     数据处理器类，用于处理各种数据格式。
@@ -36,9 +37,9 @@ class DataProcessor:
 
     def __init__(self, name: str):
         """初始化对象."""
-        self.name = name                  # 公共属性
-        self._internal_counter = 0        # 受保护属性
-        self.__private_data = []          # 私有属性
+        self.name = name  # 公共属性
+        self._internal_counter = 0  # 受保护属性
+        self.__private_data = []  # 私有属性
 
     def process(self, data: List[Dict]) -> None:
         """
@@ -67,10 +68,8 @@ class DataProcessor:
 # 函数（lowercase_underscore）
 # ----------------------------
 
-def format_output(
-    data: Union[List, Dict],
-    verbose: bool = False
-) -> str:
+
+def format_output(data: Union[List, Dict], verbose: bool = False) -> str:
     """
     格式化输出内容。
 
@@ -95,6 +94,7 @@ def format_output(
 # 表达式与语句（Expressions and Statements）
 # ----------------------------
 
+
 def check_status(status_code: int) -> None:
     """
     检查 HTTP 状态码是否成功。
@@ -113,10 +113,7 @@ def check_status(status_code: int) -> None:
         print("There are items available.")
 
     try:
-        response = requests.get(
-            "https://example.com",
-            timeout=3
-        )
+        response = requests.get("https://example.com", timeout=3)
     except requests.RequestException as e:
         print(f"Request failed: {e}")
     else:
@@ -136,15 +133,16 @@ def check_status(status_code: int) -> None:
 # ----------------------------
 
 config = {
-    "host":     "localhost",
-    "port":     8080,
-    "debug":    True,
+    "host": "localhost",
+    "port": 8080,
+    "debug": True,
 }
 
 
 # ----------------------------
 # 类型注解（Type Annotations）
 # ----------------------------
+
 
 def get_user_info(user_id: int) -> Optional[Dict[str, Union[str, int]]]:
     """
@@ -154,15 +152,16 @@ def get_user_info(user_id: int) -> Optional[Dict[str, Union[str, int]]]:
     :return: 用户信息字典或 None
     """
     return {
-        "id":   user_id,
+        "id": user_id,
         "name": "Alice",
-        "age":  30,
+        "age": 30,
     }
 
 
 # ----------------------------
 # 主程序入口（Main entry point）
 # ----------------------------
+
 
 def main() -> None:
     """
