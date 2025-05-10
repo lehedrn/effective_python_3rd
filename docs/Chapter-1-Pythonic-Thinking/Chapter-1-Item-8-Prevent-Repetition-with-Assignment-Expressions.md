@@ -1,6 +1,6 @@
 # Chapter 1: Pythonic Thinking (第一章 用Pythonic方式来思考)
 
-## Item 8: Prevent Repetition with Assignment Expressions
+## Item 8: Prevent Repetition with Assignment Expressions (使用赋值表达式避免重复代码)
 
 An assignment expression—also known as the walrus operator—is a new syntax feature introduced in Python 3.8 to solve a long-standing problem with the language that can cause code duplication. Whereas normal assignment statements are written a = b and pronounced "a equals b", these assignments are written a := b and pronounced "a walrus b" (because := looks like a pair of eyeballs and tusks).
 
