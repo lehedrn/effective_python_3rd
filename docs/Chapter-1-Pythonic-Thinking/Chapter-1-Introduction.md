@@ -15,5 +15,4 @@ Programmers familiar with other languages may try to write Python as if it’s C
 6. [Item 6: Always Surround Single-Element Tuples with Parentheses](Chapter-1-Item-6-Always-Surround-Single-Element-Tuples-with-Parentheses.md)
 7. [Item 7: Consider Conditional Expressions for Simple Inline if Statements](Chapter-1-Item-7-Consider-Conditional-Expressions-for-Simple-Inline-if-Statements.md)
 8. [Item 8: Prevent Repetition with Assignment Expressions](Chapter-1-Item-8-Prevent-Repetition-with-Assignment-Expressions.md)
-9. [Item 9: Avoid else Blocks After for and while Loops](Chapter-1-Item-9-Avoid-else-Blocks-After-for-and-while-Loops.md)
-10. [Item 10: Consider match for Destructuring in Flow Control, Avoid When if Statements Are Sufficient](Chapter-1-Item-10-Consider-match-for-Destructuring-in-Flow-Control.md)
+9. [Item 9: Consider match for Destructuring in Flow Control, Avoid When if Statements Are Sufficient](Chapter-1-Item-9-Consider-match-for-Destructuring-in-Flow-Control.md)
