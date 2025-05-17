@@ -1,4 +1,4 @@
-# Chapter 5: Functions
+# Chapter 5: Functions (函数)
 
 ## Item 33: Know How Closures Interact with Variable Scope and `nonlocal` (了解闭包如何与变量作用域和nonlocal交互)
 
