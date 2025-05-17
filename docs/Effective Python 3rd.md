@@ -5,3 +5,4 @@
 3. [Chapter 3: Loops and Iterators](Chapter-3-Loops-and-Iterators/Chapter-3-Introduction.md)
 4. [Chapter 4: Dictionaries](Chapter-4-Dictionaries/Chapter-4-Introduction.md)
 5. [Chapter 5: Functions](Chapter-5-Functions/Chapter-5-Introduction.md)
+6. [Chapter 6: Comprehensions and Generators](Chapter-6-Comprehensions-and-Generators/Chapter-6-Introduction.md)
