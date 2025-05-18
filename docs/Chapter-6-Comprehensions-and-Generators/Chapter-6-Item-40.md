@@ -1,4 +1,4 @@
-# Chapter 6: Comprehensions and Generators
+# Chapter 6: Comprehensions and Generators (推导式和生成器)
 
 ## Item 40: Use Comprehensions Instead of map and filter (使用推导式代替 `map` 和 `filter`)
 
