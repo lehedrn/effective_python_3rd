@@ -6,3 +6,4 @@
 4. [Chapter 4: Dictionaries](Chapter-4-Dictionaries/Chapter-4-Introduction.md)
 5. [Chapter 5: Functions](Chapter-5-Functions/Chapter-5-Introduction.md)
 6. [Chapter 6: Comprehensions and Generators](Chapter-6-Comprehensions-and-Generators/Chapter-6-Introduction.md)
+7. [Chapter 7: Classes and Interfaces](Chapter-7-Classes-and-Interfaces/Chapter-7-Introduction.md)
