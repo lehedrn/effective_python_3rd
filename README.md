@@ -9,4 +9,5 @@ conda activate -n python312 python=3.12
 
 conda install conda-forge::requests
 conda install conda-forge::black
+conda install conda-forge::mypy
 ```
