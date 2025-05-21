@@ -8,3 +8,4 @@
 6. [Chapter 6: Comprehensions and Generators](Chapter-6-Comprehensions-and-Generators/Chapter-6-Introduction.md)
 7. [Chapter 7: Classes and Interfaces](Chapter-7-Classes-and-Interfaces/Chapter-7-Introduction.md)
 8. [Chapter 8: Metaclasses and Attributes](Chapter-8-Metaclasses-and-Attributes/Chapter-8-Introduction.md)
+9. [Chapter 9: Concurrency and Parallelism](Chapter-9-Concurrency-and-Parallelism/Chapter-9-Introduction.md)
