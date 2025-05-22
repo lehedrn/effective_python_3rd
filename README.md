@@ -5,9 +5,10 @@ effective python 第三版 学习笔记
 ## 依赖环境
 
 ```bash
-conda activate -n python312 python=3.12
+conda create -n python313 python=3.13
 
 conda install conda-forge::requests
 conda install conda-forge::black
 conda install conda-forge::mypy
+
 ```
