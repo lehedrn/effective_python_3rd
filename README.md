@@ -11,4 +11,5 @@ conda install conda-forge::requests
 conda install conda-forge::black
 conda install conda-forge::mypy
 
+conda install conda-forge::aiofiles
 ```
