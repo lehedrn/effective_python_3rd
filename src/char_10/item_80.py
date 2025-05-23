@@ -14,6 +14,10 @@ import os
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+def delete_file(filename):
+    if os.path.exists(filename):
+        os.remove(filename)
+    logger.info(f"{filename} is deleted...")
 
 def example_try_finally_success():
     """
@@ -33,8 +37,7 @@ def example_try_finally_success():
         finally:
             handle.close()
             logger.info("文件已关闭")
-            # 删除文件
-            os.remove(filename)
+            delete_file(filename)
     except Exception as e:
         logger.error(f"发生异常: {e}")
 
@@ -56,7 +59,7 @@ def example_try_finally_error_during_read():
         finally:
             handle.close()
             logger.info("文件已关闭")
-            os.remove(filename)
+            delete_file(filename)
     except UnicodeDecodeError as e:
         logger.error(f"Unicode 解码错误: {e}")
 
@@ -169,8 +172,7 @@ def example_full_usage_success():
     result = divide_json(temp_path)
     logger.info(f"最终结果: {result}")
 
-    if os.path.exists(temp_path):
-        os.remove(temp_path)
+    delete_file(temp_path)
 
 
 def example_full_usage_zero_division():
@@ -209,8 +211,7 @@ def example_full_usage_zero_division():
     result = divide_json(temp_path)
     logger.info(f"最终结果: {result}")
 
-    if os.path.exists(temp_path):
-        os.remove(temp_path)
+    delete_file(temp_path)
 
 
 def example_full_usage_invalid_json():
@@ -252,8 +253,7 @@ def example_full_usage_invalid_json():
     except json.JSONDecodeError as e:
         logger.error(f"JSON 解码失败: {e}")
     finally:
-        if os.path.exists(temp_path):
-            os.remove(temp_path)
+        delete_file(temp_path)
 
 
 def main():
