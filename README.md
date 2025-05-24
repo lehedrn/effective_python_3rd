@@ -12,4 +12,7 @@ conda install conda-forge::black
 conda install conda-forge::mypy
 
 conda install conda-forge::aiofiles
+conda install conda-forge::numba
+conda install conda-forge::numpy
+
 ```
