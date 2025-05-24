@@ -10,3 +10,4 @@
 8. [Chapter 8: Metaclasses and Attributes](Chapter-8-Metaclasses-and-Attributes/Chapter-8-Introduction.md)
 9. [Chapter 9: Concurrency and Parallelism](Chapter-9-Concurrency-and-Parallelism/Chapter-9-Introduction.md)
 10. [Chapter 10: Robustness](Chapter-10-Robustness/Chapter-10-Introduction.md)
+11. [Chapter 11: Performance](Chapter-11-Performance/Chapter-11-Introduction.md)
