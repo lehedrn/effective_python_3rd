@@ -12,3 +12,4 @@
 10. [Chapter 10: Robustness](Chapter-10-Robustness/Chapter-10-Introduction.md)
 11. [Chapter 11: Performance](Chapter-11-Performance/Chapter-11-Introduction.md)
 12. [Chapter 12: Data Structures and Algorithms](Chapter-12-Data-Structures-and-Algorithms/Chapter-12-Introduction.md)
+13. [Chapter 13: Testing and Debugging](Chapter-13-Testing-and-Debugging/Chapter-13-Introduction.md)
